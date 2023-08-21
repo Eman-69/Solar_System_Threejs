@@ -67,6 +67,8 @@ const Home = () => {
     scene.add(venusAxis);
     scene.add(pointLight); 
     scene.add(lightHelper);
+
+    scene.add(controls);
     camera.position.set(0,0,200);
     const animate = () =>{
       requestAnimationFrame(animate);
