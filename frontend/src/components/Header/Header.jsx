@@ -2,7 +2,6 @@ import React from 'react'
 import {ReactNavbar} from "overlay-navbar"
 import {FaUserAlt} from "react-icons/fa"
 import logo from "../../Images/logo.png"
-import homenav from "../../Images/homenav.jpeg"
 
 const Header = () => {
   return (
