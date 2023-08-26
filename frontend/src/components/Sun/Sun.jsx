@@ -1,7 +1,6 @@
 import React from 'react'
 import "../planet.css"
 import * as THREE from "three"
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import sunImage from '../../Images/sun.jpg'
 
 const Sun = () => {
