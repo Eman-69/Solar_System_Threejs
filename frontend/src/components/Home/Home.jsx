@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import "./Home.css"
 import * as THREE from "three";
 import {OrbitControls} from "three/examples/jsm/controls/OrbitControls"
 import sunImage from "../../Images/sun.jpg"

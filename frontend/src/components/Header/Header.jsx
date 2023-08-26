@@ -18,7 +18,7 @@ const Header = () => {
     link2Text="Sun"
     link3Text="Planets"
     link4Text="About Me"  
-    link1Url="/home"
+    link1Url="/"
     link2Url="/sun"
     link3Url="/planet"
     link4Url="/about"

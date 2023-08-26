@@ -1,0 +1,39 @@
+*{
+    
+    color: white;
+}
+.sun{
+
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    overflow: auto;
+    height: 100vh;
+}
+.sunCanvas{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    z-index: -1;
+
+}
+.page{
+    scroll-snap-align: start;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    align-items: center;    
+}
+.gridcontainer{
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    
+}
+.title{
+    font-size: 5rem;
+}
+.info{
+    font-size: 2rem;
+}
