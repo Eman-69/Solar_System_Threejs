@@ -1,0 +1,12 @@
+.planetsContainer{
+    background-color: black;
+    padding-top: 20vh;
+    height: 80vh;
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+}
+.planetContainer{
+    text-align: center;
+}

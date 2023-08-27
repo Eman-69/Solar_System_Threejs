@@ -1,0 +1,84 @@
+[{
+  "_id": {
+    "$oid": "64ea32e387b8ce7452881aeb"
+  },
+  "name": "Mercury",
+  "distance_from_sun_km": 57909227,
+  "radius_km": 2439.7,
+  "gravitational_force_m/s2": 3.7,
+  "temperature_celsius": 167
+},
+{
+  "_id": {
+    "$oid": "64ea334287b8ce7452881aed"
+  },
+  "name": "Venus",
+  "distance_from_sun_km": 108209475,
+  "radius_km": 6051.8,
+  "gravitational_force_m/s2": 8.87,
+  "temperature_celsius": 464
+},
+{
+  "_id": {
+    "$oid": "64ea335a87b8ce7452881aee"
+  },
+  "name": "Earth",
+  "distance_from_sun_km": 149598262,
+  "radius_km": 6371,
+  "gravitational_force_m/s2": 9.81,
+  "temperature_celsius": 14
+},
+{
+  "_id": {
+    "$oid": "64ea336387b8ce7452881aef"
+  },
+  "name": "Mars",
+  "distance_from_sun_km": 227943824,
+  "radius_km": 3389.5,
+  "gravitational_force_m/s2": 3.71,
+  "temperature_celsius": -63
+},
+{
+  "_id": {
+    "$oid": "64ea336d87b8ce7452881af0"
+  },
+  "name": "Jupiter",
+  "distance_from_sun_km": 778340821,
+  "radius_km": 69911,
+  "gravitational_force_m/s2": 24.79,
+  "temperature_celsius": -145
+},
+{
+  "_id": {
+    "$oid": "64ea337687b8ce7452881af1"
+  },
+  "name": "Saturn",
+  "distance_from_sun_km": 1426666422,
+  "radius_km": 58232,
+  "gravitational_force_m/s2": 10.44,
+  "temperature_celsius": -178
+},
+{
+  "_id": {
+    "$oid": "64ea338487b8ce7452881af2"
+  },
+  "name": "Uranus",
+  "distance_from_sun_km": {
+    "$numberLong": "2870658186"
+  },
+  "radius_km": 25362,
+  "gravitational_force_m/s2": 8.69,
+  "temperature_celsius": -224
+},
+{
+  "_id": {
+    "$oid": "64ea339087b8ce7452881af3"
+  },
+  "name": "Neptune",
+  "distance_from_sun_km": {
+    "$numberLong": "4498396441"
+  },
+  "radius_km": 24622,
+  "gravitational_force_m/s2": 11.15,
+  "temperature_celsius": -218
+}]

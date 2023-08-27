@@ -6,7 +6,7 @@
 
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
-    overflow: auto;
+    overflow: hidden auto;
     height: 100vh;
 }
 .sunCanvas{
@@ -27,13 +27,18 @@
 .gridcontainer{
     height: 50vh;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 0.9fr;
     justify-items: center;
     
 }
+hr{
+    width: 50vw;
+}
 .title{
     font-size: 5rem;
+    width: 100%;
 }
 .info{
+    width: 100%;
     font-size: 2rem;
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import "../planet.css"
+import "../celestialbody.css"
 import * as THREE from "three"
 import sunImage from '../../Images/sun.jpg'
 
