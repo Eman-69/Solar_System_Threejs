@@ -1,13 +1,11 @@
 
 require("dotenv").config;
-console.log(require("dotenv").config())
 const uri = process.env.MONGO_CONNECTION;
 const express=require("express");
 const app=express();
 const cors=require("cors");
 const mongoose=require("mongoose");
 const SolarsystemModel=require("./model/Solarsystem.js");
-console.log(uri);
 app.use(cors())
 app.use(express.json());
 mongoose.connect(uri);
