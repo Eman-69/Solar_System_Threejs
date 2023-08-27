@@ -9,7 +9,7 @@ const Planets = () => {
         {
             const options={
                 method:'GET',
-                url:'http://localhost:3001/getPlanets',
+                url:'https://solarsytem.onrender.com/getPlanets',
                 
             };
             axios.request(options).then(function(response)

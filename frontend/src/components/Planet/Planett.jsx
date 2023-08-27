@@ -23,7 +23,7 @@ React.useEffect(() => {
   const fetchPlanets = () => {
     const options = {
       method: 'GET',
-      url: `http://localhost:3001/getPlanets/${planetId}`,
+      url: `https://solarsytem.onrender.com/getPlanets/${planetId}`,
     };
     axios.request(options).then(function(response){
       setPlanets(response.data);
